@@ -1,6 +1,6 @@
 class example {
   notify {
     "foo":
-      message => "foo_message",
+      message => hiera("foo_message"),
   }
 }

@@ -1,4 +1,6 @@
 require 'rspec-puppet'
+require 'rspec-hiera-puppet'
+#require 'shared_contexts'
 
 fixture_path = File.expand_path(File.join(__FILE__, '..', 'fixtures'))
 
